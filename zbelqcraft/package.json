@@ -1,0 +1,14 @@
+{
+    "name": "jp.zbelq.zbale-adjuster",
+    "displayName": "Zbale Adjuster",
+    "version": "0.1.0",
+    "unity": "2019.4",
+    "description": "Utility tool for copying Transform and ModularAvatar ScaleAdjuster between bone hierarchies.",
+    "author": {
+        "name": "zbelq",
+        "url": "https://github.com/zbelqcraft"
+    },
+    "vpmDependencies": {
+        "nadena.dev.modular-avatar": ">=1.9.0"
+    }
+}
