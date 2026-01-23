@@ -1,11 +1,14 @@
 {
     "name": "jp.zbelqcraft.avatar-bone-sync-ma",
     "displayName": "AvatarBoneSync for MA",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "unity": "2022.3",
     "type": "tool",
     "description": "Synchronize avatar bone transforms and ModularAvatar ScaleAdjusters between armatures.",
     "author": {
         "name": "zbelq"
+    },
+    "vpmDependencies": {
+        "nadena.dev.modular-avatar": ">=1.9.0"
     }
 }
