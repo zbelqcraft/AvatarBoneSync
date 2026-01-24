@@ -50,14 +50,19 @@ VRChat Creator Companion に Avatar Bone Sync for MA のリポジトリを直接
 
 #### Execution版（おすすめ）
 1. Hierarchy 上の任意のオブジェクトを右クリック
-2. **Avatar Bone Sync for MA → Execution**
-3. ModularAvatar MergeArmature を自動検出して実行
+2. **Modular Avatar → Setup Outfit**
+3. 同じオブジェクトを再度右クリック
+4. **Avatar Bone Sync for MA → Execution**
+5. 完了
 
 #### Tool版
 1. Unity メニューから  
    **Tools → Avatar Bone Sync for MA**
 2. コピー元ボーンとコピー先ボーンを指定
 3. 必要な設定を選択して実行
+
+##### Tool版 使用例  
+- HeadからHead(または近似ボーン)にコピーしたい場合
 
 ---
 
@@ -111,15 +116,23 @@ Click the link below to add the Avatar Bone Sync for MA repository directly to V
 
 ### Usage
 
+#### Execution Version (Recommended)
+1. Right-click any object in the Hierarchy
+2. Select **Modular Avatar → Setup Outfit**
+3. Right-click the same object again
+4. Select **Avatar Bone Sync for MA → Execution**
+5. Done
+
 #### Tool Version
 1. Open **Tools → Avatar Bone Sync for MA**
 2. Assign source and target Transforms
 3. Configure settings and execute
 
-#### Execution Version (Recommended)
-1. Right-click an object in the Hierarchy
-2. Select **Avatar Bone Sync for MA → Execution**
-3. The tool automatically finds MergeArmature and executes
+#### Tool Version Example
+- Copy transforms from **head** to **head(or nearly transform)**
+
+The Execution Version is recommended for most users, as it works automatically with Modular Avatar outfits.
+
 
 ---
 
